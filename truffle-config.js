@@ -1,9 +1,9 @@
 module.exports = {
   networks: {
-    development: {
+    sepolia: {
       host: "127.0.0.1",
       port: 8545,
-      network_id: "*",
+      network_id: 11155111,
     },
   },
   compilers: {
